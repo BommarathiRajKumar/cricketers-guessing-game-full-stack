@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GamePage</title>
+
+
+        <script src="/game.js"></script>
+
+
+<link rel="stylesheet" href="/styles.css">
+    </head>    
+    <body bgcolor= "lightblue">
+        
+        
+        
+        
+        <div id="mainGameDivId" style="display: block;">
+            <script> gameMenuDisable = document.getElementById("mainGameDivId");</script>
+                
+            <button class="button" style="display:block; top: 20px;"><a href="http://localhost:3000/" style="color:black; text-decoration:none">Back to menu</a></button>
+             
+            <div id="buttonDivId" style="display: block;">
+              <script>buttonDivVar = document.getElementById("buttonDivId");</script>
+                <button class="button" id="viratId" style="left: 465px;" onclick="viratFun(); mainFun(); guessFunDisable(); h5DisableFun()">Virat</button>
+                <button class="button" id="msId"    style="left: 565px;"  onclick="msFun(); mainFun(); guessFunDisable(); h5DisableFun()">Ms.Dhoni</button>
+                <button class="button" id="sachinId" style="left: 665px;" onclick="sachinFun(); mainFun(); guessFunDisable(); h5DisableFun()">Sachin</button>
+                <button class="button" id="rohithId" style="left: 765px;" onclick="rohithFun(); mainFun(); guessFunDisable(); h5DisableFun()">Rohith</button>
+                <button class="button" id="hardikId" style="left: 865px;" onclick="hardikFun(); mainFun(); guessFunDisable(); h5DisableFun()">Hardik</button>
+                <button class="button" id="yuvrajId" style="left: 965px;" onclick="yuvrajFun(); mainFun(); guessFunDisable(); h5DisableFun()">Yuvraj</button>
+            </div>    
+            <div id="guessTextId" style="display: none">Your Guess
+                <script>guessText = document.getElementById("guessTextId");</script>
+            </div>
+                
+            <div id="choiceBoardId" style="display: none;" >
+                <script>choiceBoardVar = document.getElementById("choiceBoardId");</script>
+            </div>
+    
+            <div id="scoreBoardId">score<br/>0</div>
+            <script>scoreV = document.getElementById("scoreBoardId")</script>
+                
+            <div id="guessBoxDivId">
+                <img class="images" id="guessImgId" src="/public/photos/white.jpg" />
+                    <script>im = document.getElementById("guessImgId");</script>
+                <div class="nextGuess" id="H5" style="display:block;"> <p>Guess the cricketer <br/> you have <br/> 3 choices.</p> </div>
+                    <script>hh = document.getElementById("H5");</script>
+                <div class="nextGuess" id="H4" style="display:none; "><p><br/>Guess <br/> who <br/> is <br/> next</p></div>
+            </div>
+              
+            
+            
+            
+            
+            
+            
+            <div id="HSDiv" style="display: none">
+                <script>HSdivV = document.getElementById("HSDiv")</script>
+
+                <div id="happySadScoreBoard"><img class="images" id="img10id" src="" /></div>
+                <script>img10V = document.getElementById("img10id");</script>
+                
+                <div id="P10"><script>P10V = document.getElementById("P10")</script></div>
+            </div>
+
+
+
+
+
+            
+            
+            
+            
+            
+            <div id="outDivId">
+                <p id="H1" style="display: none;">1</p>
+                <p id="H2" style="display: none;">2</p>
+                <p id="H3" style="display: none;">3</p>
+                <img class="images"SSSS id="imgSrcId" style="display:block;" src="/public/photos/question.jpg" />
+                    <script> varImgSrcId = document.getElementById("imgSrcId");</script>
+            </div>
+                    
+                 
+        </div>
+            
+            
+            
+        <div id="gameOverDivId" style="display: none">
+            <script>gameOverDiv = document.getElementById("gameOverDivId");</script>
+            <p id="gameOverContentId" >
+            <script>gameOverContent = document.getElementById("gameOverContentId");</script>
+            </p>
+            <button class="button" style=" left: 470px; top: 260px;"><a href="http://localhost:3000/game" style="color:black; text-decoration:none">New Game</a></button>
+            <button class="button" style=" left: 280px; top: 260px;"><a href="http://localhost:3000/" style="color:black; text-decoration:none">Back to menu</a></button>
+            
+        
+        </div>
+        
+    </body>
+        
+</html>

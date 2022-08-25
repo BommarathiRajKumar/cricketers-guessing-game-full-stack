@@ -1,0 +1,166 @@
+div#Menu{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 800px;
+    height: 400px;
+    border-radius: 25px;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+}
+
+div#scoreBoardId{
+    background-color: rgb(64, 128, 128);
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    width: 200px;
+    height: 120px;
+    border-radius: 25px;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+}
+
+div#guessBoxDivId{
+    background-color: rgb(64, 128, 128);
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    position: absolute;
+    top: 150px;
+    left: 370px;
+}
+
+div#happySadScoreBoard{
+    background-color: rgb(64, 128, 128);
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    position: absolute;
+    top: 150px;
+    left: 640px;
+}
+
+div#outDivId{
+    background-color: rgb(64, 128, 128);
+    display: flex;
+    align-items: center;
+    font-size: 480px;
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    position: absolute;
+    top: 150px;
+    left: 915px;
+}
+
+div#P10{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 70px;
+    left: 645px;
+}
+
+
+
+div#choiceBoardId{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 70px;
+    left: 915px;
+}
+
+div#guessTextId{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 70px;
+    left: 370px;
+}
+
+div#gameOverDivId{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 800px;
+    height: 400px;
+    border-radius: 25px;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+}
+
+.images{
+    width: 100%; 
+    height: 100%;  
+    border-radius: 25px;  
+    position: relative;
+
+}
+
+.nextGuess{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0px;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 600px;
+}
+
+.buttonIndexHtml{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 250px;
+}
+
+button:hover{
+    background-color: rgb(107, 89, 248);
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input:hover {
+    background-color: rgb(107, 89, 248);
+    box-shadow: 3px 3px 3px white;
+    font-weight: bold;
+    cursor: pointer;
+}
