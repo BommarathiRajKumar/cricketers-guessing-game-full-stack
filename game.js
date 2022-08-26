@@ -86,7 +86,6 @@ function decideFun(){
         setTimeout(gameOverFun,2900);
     }
 
-
     let R = Math.floor(Math.random() * 3) + 1;
     if (R == 1){
         if(ID == "viratId"){
